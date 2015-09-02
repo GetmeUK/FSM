@@ -15,13 +15,13 @@ Then run `grunt build` to build the project.
 To test the library you'll need to use Jasmine. First install Jasmine
 ```
 git clone https://github.com/pivotal/jasmine.git
-mkdir fsm/jasmine
-mv jasmine/dist/jasmine-standalone-2.0.3.zip fsm/jasmine
-cd fsm/jasmine
+mkdir FSM/jasmine
+mv jasmine/dist/jasmine-standalone-2.0.3.zip FSM/jasmine
+cd FSM/jasmine
 unzip jasmine-standalone-2.0.3.zip
 ```
 
-Then open `fsm/SpecRunner.html` in a browser to run the tests.
+Then open `FSM/SpecRunner.html` in a browser to run the tests.
 
 ## Documentation
 Full documentation is available at http://getcontenttools.com/api/fsm
