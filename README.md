@@ -24,7 +24,9 @@ cd FSM/jasmine
 unzip jasmine-standalone-2.0.3.zip
 ```
 
-Then open `FSM/SpecRunner.html` in a browser to run the tests.
+Then open `FSM/SpecRunner.html` in a browser to run the tests. 
+
+Alternatively you can use the `grunt jasmine` to run the tests from the command line. 
 
 ## Documentation
 Full documentation is available at http://getcontenttools.com/api/fsm
