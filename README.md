@@ -1,5 +1,8 @@
 # Finite State Machine (FSM)
-A minimal finite state machine (FSM) for Javascript.
+
+[![Build Status](https://travis-ci.org/GetmeUK/FSM.svg?branch=master)](https://travis-ci.org/GetmeUK/FSM)
+
+> A minimal finite state machine (FSM) for Javascript.
 
 ## Building
 To build the library you'll need to use Grunt. First install the required node modules ([grunt-cli](http://gruntjs.com/getting-started) must be installed):
