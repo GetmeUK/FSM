@@ -24,6 +24,13 @@ module.exports = (grunt) ->
                 src: 'build/fsm.js'
                 dest: 'build/fsm.min.js'
 
+        jasmine:
+            fsm:
+                src: ['build/fsm.js']
+                options:
+                    specs: 'spec/fsm-spec.js'
+                    helpers: 'spec/spec-helper.js'
+
         watch:
             build:
                 files: ['src/fsm.coffee']
@@ -38,6 +45,7 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks 'grunt-contrib-coffee'
     grunt.loadNpmTasks 'grunt-contrib-uglify'
     grunt.loadNpmTasks 'grunt-contrib-watch'
+    grunt.loadNpmTasks 'grunt-contrib-jasmine'
 
     # Tasks
     grunt.registerTask 'build', [
@@ -51,4 +59,3 @@ module.exports = (grunt) ->
 
     grunt.registerTask 'watch-build', ['watch:build']
     grunt.registerTask 'watch-spec', ['watch:spec']
-
