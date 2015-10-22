@@ -25,7 +25,7 @@ module.exports = (grunt) ->
                 dest: 'build/fsm.min.js'
 
         jasmine:
-            fsm:
+            build:
                 src: ['build/fsm.js']
                 options:
                     specs: 'spec/fsm-spec.js'
