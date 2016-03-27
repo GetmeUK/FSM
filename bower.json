@@ -1,0 +1,33 @@
+{
+  "name": "FSM",
+  "description": "A minimal finite state machine (FSM) for Javascript.",
+  "main": "build/fsm.js",
+  "authors": [
+    {
+      "name": "Anthony Blackshaw",
+      "email": "ant@getme.co.uk",
+      "url": "https://github.com/anthonyjb"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "fsm",
+    "state",
+    "machine"
+  ],
+  "homepage": "http://getcontenttools.com/api/fsm",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GetmeUK/FSM.git"
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
