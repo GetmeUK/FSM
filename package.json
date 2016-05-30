@@ -1,7 +1,7 @@
 {
   "name": "FSM",
   "description": "A minimal finite state machine (FSM) for Javascript.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "fsm",
     "state",
@@ -12,6 +12,7 @@
     "email": "ant@getme.co.uk",
     "url": "https://github.com/anthonyjb"
   },
+  "main": "build/fsm.js",
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-coffee": "^0.11.1",
