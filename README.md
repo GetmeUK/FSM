@@ -12,6 +12,12 @@
 bower install --save FSM
 ```
 
+**Using npm**
+
+```
+npm install --save FSM
+```
+
 ## Building
 To build the library you'll need to use Grunt. First install the required node modules ([grunt-cli](http://gruntjs.com/getting-started) must be installed):
 ```
@@ -32,9 +38,9 @@ cd FSM/jasmine
 unzip jasmine-standalone-2.0.3.zip
 ```
 
-Then open `FSM/SpecRunner.html` in a browser to run the tests. 
+Then open `FSM/SpecRunner.html` in a browser to run the tests.
 
-Alternatively you can use `grunt jasmine` to run the tests from the command line. 
+Alternatively you can use `grunt jasmine` to run the tests from the command line.
 
 ## Documentation
 Full documentation is available at http://getcontenttools.com/api/fsm

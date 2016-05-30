@@ -2,6 +2,11 @@
   "name": "FSM",
   "description": "A minimal finite state machine (FSM) for Javascript.",
   "version": "1.0.1",
+  "keywords": [
+    "fsm",
+    "state",
+    "machine"
+  ],
   "author": {
     "name": "Anthony Blackshaw",
     "email": "ant@getme.co.uk",
