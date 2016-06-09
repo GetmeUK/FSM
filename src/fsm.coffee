@@ -1,4 +1,4 @@
-window.FSM = {}
+FSM = {}
 
 class FSM.Machine
 
@@ -84,3 +84,14 @@ class FSM.Machine
 
         # Transition to the next state
         @_currentState = result[0]
+
+
+# Export the namespace
+
+# Browser (via window)
+if typeof window != 'undefined'
+    window.FSM = FSM
+
+# Node/Browserify
+if typeof module != 'undefined' and module.exports
+    exports = module.exports = FSM
